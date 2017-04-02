@@ -31,3 +31,6 @@ For changing the port fo the application,edit APP_PORT filed in ./config file in
 
 Note:SF data Api provides list of locations which has no valid geo coding(no latitude and longitude).SO for those points no plotting is done.
 
+ScreenShot1
+<img src = "https://github.com/anil26/MovieSearchGoogleMaps/blob/master/moviesearch1.png"/>
+
