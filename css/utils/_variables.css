@@ -1,0 +1,25 @@
+/*This file contains all application-wide CSS variables.*/
+
+$text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
+$serif-font-stack: Georgia, Times, 'Times New Roman', serif;
+
+$bg-color1 : #F1FFFF;
+$bg-color2 : rgb(241, 255, 255);
+$border-color1 : #9FB7E7;
+$title-bg-color : #dfe7fe;
+$title-txt-color : #005DD6;
+$font-size1 : 10px;
+$font-size2 : 11px;
+$font-size3 : 12px;
+$font-color-black : black;
+$font-size4 : 14px;
+$navhead-height : 20px;
+$navbar-titlecolor :  rgba(0, 0, 255, 0.87);
+$header-bg : linear-gradient(#ffffff,#dfe7fe);
+$border-box-color : #ccd9f2;
+$on-hover-color: #EA7E1C;
+$red : red;
+$green : #008000;
+$link-color : #072FD7;
+$text-hover-color: #EF961C;

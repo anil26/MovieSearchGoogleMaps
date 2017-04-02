@@ -1,0 +1,461 @@
+
+/*
+* hide the element based on the condition 
+*/
+.height100per {
+    height: 100%;
+}
+.display-none {
+  display: none;
+}
+
+.yellow-bg{
+    background-color: #ff0;
+}
+.green-bg{
+   background-color: #12b712;
+}
+.red-bg{
+   background-color: #ff0000;
+}
+.lightblue-bg{
+   background-color: #20b8bf;
+}
+.orange-bg{
+   background-color: #ffa500;
+}
+.yellow-bg{
+   background-color: #FDFF02;
+}
+/*
+* display the element based on the condition 
+*/
+.blue-link{
+    color : #4b71d8;
+    cursor : pointer;
+}
+.display-block {
+  display: block;
+}
+
+/**
+ * Css for clearing both the sides
+ */
+.clear-both{
+    clear :both;
+}
+.color-red{
+    color: red;
+}
+.bold-txt {
+    font-weight: bold;
+}
+.display-inline-block {
+    display: inline-block;
+}
+
+/*
+* class is used for setting 100% for the dom elements
+*/
+
+.width100 {
+    width : 100% !important;
+}
+
+/*
+* class is used for setting 50% for the dom elements
+*/
+
+.width50 {
+    width : 50% !important;
+}
+
+.width25{
+    width: 25%;
+}
+
+.width75{
+    width: 75%;
+}
+
+.width33{
+    width: 33.334%;
+}
+
+.width66{
+    width: 66.667%;
+}
+
+
+/*
+* common class name for floating left property
+*/
+
+.float-left {
+    float: left;
+}
+
+
+/*
+* common class name for floating right property
+*/
+
+.float-right {
+    float: right;
+}
+
+/*
+* common class name for text align center
+*/
+.txt-align-center {
+    text-align: center;
+}
+/**
+ * common class for green tick on success status
+ */
+.green-tick{
+    background-image : url("../img/check_green.png");
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/**
+    common class for warning status
+*/
+.warning-img{
+     background-image : url("../img/warning.png");
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/**
+ * Css for red tick on error status
+ */
+.red-tick{
+    background-image : url("../img/check_red.png");
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/**
+ * Css for no data status
+ */
+.nodata-icon{
+    background-image : url("../img/gray_icon.png");
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/**
+ * Css class for down arrow for sortTable
+ */
+.down-arrowT{
+    background-image : url("../img/down-arrow.png");  
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    width: 16px;
+}
+
+/**
+ * Css class for up arroes for table
+ */
+.up-arrowT{
+     background-image : url("../img/up-arrow.png");  
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    width : 16px;
+    
+}
+/**
+ * Css class for calender-icon,used with datetimepicker everywhere
+ */
+.calender-icon{
+    content : url("../img/calender-icon1.png");  
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    margin-top: 4px;
+    background: white;
+    /* border-right: 1px solid black; */
+    height: 14px;
+    width: 13px;
+    position: relative;
+    left: -14px;
+}
+
+/**
+ * Css class for calender-divider between from and to calenders everywhere
+ */
+.calender-divider{
+    position: relative;
+    left: -6px;
+}
+/*
+* Css done For header title text
+*/
+.hed-txt {
+    color: $title-txt-color;
+    font-weight: bold;
+}
+
+/*
+* Css done For header sub title text
+*/
+.hed-sub-txt {
+    color: $font-color-black;
+    font-weight: normal;
+}
+
+/*
+* Css done For header container right align
+*/
+.hed-right-container {
+    float:right;
+    color: $font-color-black;
+    font-weight: normal;
+}
+
+
+/*
+* Css done for conatiner in all the pages
+*/
+.container-wrapper {
+    border: 1px solid $border-color1;
+    margin: 10px 0px;
+    font-size: $font-size3;
+}
+
+/*
+* Container wrapper header css
+*/
+
+.container-wrapper header {
+    background-color: $title-bg-color;
+    position: relative;
+    height: 20px;
+    line-height: 19px;
+    padding: 0px 6px;
+    background: linear-gradient(#ffffff,#dfe7fe);
+}
+
+/*
+* Back button css for all the pages
+*/
+.back-btn {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/**
+ * Css Class for floating left 
+ */
+.float-left{
+    float : left;
+}
+
+/**
+ * Css class for container for status bar common component
+ */
+.status-bar {
+    height: 40px;
+    width: 150px;
+    border: 1px solid $border-color1;
+    margin-left: 10px;
+    margin-top: 13px;
+    position: relative;
+    float : left;
+} 
+
+/**
+ * Css for icon section of status bar
+ */
+.status-bar-icon{
+    width : 50px;
+    background-size: 70% 70%;
+    background-position: center;
+    height: 40px;
+    border-right: 1px solid $border-color1;
+    float : left;
+}
+
+/**
+ * Css for hyperlink section of status bar
+ */
+.status-bar-hyperlink{
+    width: 65%;
+    float : right;
+    color: rgba(0, 0, 255, 0.87);
+    text-align: center;
+    position: absolute;
+    line-height: 40px;
+    height: 40px;
+    left: 35%;
+    font-size:$font-size3;
+
+}
+.status-bar-hyperlink .display-section{
+    display: inline-block;
+    line-height: normal; 
+    vertical-align: middle;   
+
+}
+
+
+/*
+*  Common loading indicator for all the pages
+*/
+.loader {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    z-index: 99999;
+    margin: auto;
+    left: 48%;
+    top: 48%;
+    background-image: url(../img/loader.gif);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/*
+* If there is no data then the follwing css is added
+*/
+
+.no-data-cls {
+    padding-left: 10px;
+    color: red;
+    margin: 0px;
+}
+
+/**
+ * Class for disabling buttons 
+ */
+.button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/**
+ * Css fro enabling button
+ */
+.button-enabled{
+    opacity : 1;
+    cursor : pointer;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-normal{
+    font-weight: normal;
+}
+.cross-button{
+    background-image: url("../img/redcross1.png");
+}
+.txt-white{
+    color : #ffffff;
+}
+.bold-txt{
+    font-weight: bold,
+}
+.normal-txt{
+    font-weight: normal
+}
+.bold-link-txt{
+    font-weight : bold;
+    cursor: pointer;
+}
+.bold-link-txt:hover{
+    color : #EA7E1C;
+}
+.normal-link-txt{
+    font-weight: normal;
+    cursor: pointer;
+}
+.normal-link-txt:hover{
+    color : #EA7E1C;
+}
+
+.relative-class{
+    position: relative;
+}
+.absolute-class{
+    position: absolute;
+}
+
+.Zindex2{
+    z-index: 2;
+}
+.opacity0{
+    opacity: 0;
+}
+.margin-left-20{
+    margin-left : 20px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.height100p{
+    height: 100%;
+}
+.underline{
+    text-decoration: underline;
+}
+/**
+*Common class for report icons.
+*/
+.report-icon{
+    content : url("../img/report-popup-icon.png");  
+    width: 14px;
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    /*margin-top: 4px;*/
+    background: white;
+    /* border-right: 1px solid black; */
+    
+    position: relative;
+    cursor : pointer;
+}
+.fails-status{
+    background-color: $red;
+}
+.pass-status{
+    background-color: $green;
+}
+
+.margin-top10{
+    margin-top: 10px;
+}   
+
+.margin-bottom10{
+    margin-bottom: 10px;
+}
+
+.valign-wrapper{
+    display: table;
+}
+
+.valign-wrapper .valign-item{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.health-check-component{
+    position: relative;
+}
+.health-check-component .health-check-response{
+    background: none;
+    border: 0px;
+}
+
+.report-popup-icon{
+    padding-left: 50px;
+}

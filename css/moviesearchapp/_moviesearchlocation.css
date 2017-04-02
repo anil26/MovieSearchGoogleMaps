@@ -1,0 +1,95 @@
+.movie-search-page{
+	background: rgba(238, 238, 238, 0.38);
+	padding-left: 20px;
+    padding-right: 20px;
+    .input-section{
+    	position: relative;
+    	.search-icon{
+	    position: absolute;
+	    right: 21%;
+	    font-size: 35px;
+	    line-height: 1.5em;
+	    cursor: pointer;
+    	}
+    	.auto-suggestion{
+	    	max-height: 210px;
+    		overflow-y: auto;
+			width: 60%;
+			left: 20%;
+			position: absolute;
+		    font-size: 20px;
+		    z-index: 99999;
+		    background: #f9f9f9;
+
+			.auto-suggestion-item{
+				height: 30px;
+			    line-height: 30px;
+			    border-bottom: 1px solid grey;
+			    padding-left: 8px;
+			    border-right: 1px solid grey;
+			    border-left: 1px solid grey;
+			    padding-right: 8px;
+			}
+    	}	
+    }
+    
+	.movie-search-bar{
+		width: 60%;
+	    margin: 0px auto;
+	    display: block;
+	    height: 50px;
+	    font-size: 30px;
+	    font-style: oblique;
+	    border: 3px solid grey;
+	    border-radius: 10px;
+	    outline: none;
+	}	
+	.result-height{
+		height: 500px;
+		padding-top: 40px;
+		.side-location-bar{
+			height: 100%;
+		}
+		.map-bar{
+			height: 100%;
+			left: 15%;
+		    width: 70%;
+		    right: 15%;
+		}
+		.mapbar_result{
+			height: 100%;
+			left: 1%;
+			
+		}
+		.no-result-map{
+			height: 100%;
+		    width: 60%;
+		    margin: 0px auto;
+		}
+		.side-bar-result{
+			border: 2px solid #a3ccff;
+			max-height: 460px;
+			overflow-y : auto;
+			.location-item{
+				border-bottom: 1px solid #a3ccff;
+				padding-left: 6px;
+    			padding-right: 6px;
+    			.location-name{
+    				font-size: 17px;
+    				font-weight: bold;
+    			}
+    			.actors-name{
+    				display: block;
+    				font-size: 1em;
+    			}
+    			.director-name{
+    				display: block;
+    			}
+    			.movie-name{
+    				float: right;
+    				padding-top: 5px;
+    			}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+.form {
+	font-size: $font-size1;
+}
+
+.form input {
+	font-size: small;
+}

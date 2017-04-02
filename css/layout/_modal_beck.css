@@ -1,0 +1,34 @@
+.modal-container{
+	width : 400px;
+	height : 150px;
+}
+
+.export-modal .modal-content{
+	background: #9eb9d5;
+	border-radius : none;
+}
+.export-modal .modal-header{
+	border-bottom: none;
+	    padding: 8px;
+}
+
+.export-modal .modal-footer{
+	border-top: none;
+}
+
+.export-modal .bodyplusfooter{
+	background: white;
+	    border-left: 13px solid #9eb9d5;
+    border-right: 13px solid #9eb9d5;
+    border-bottom: 13px solid #9eb9d5;
+}
+
+.export-modal .btn-default{
+		background-color: #ccc;
+	  border-color: #ccc;
+    width: 103px;
+
+}
+.export-modal .modal-dialog{
+	margin: 200px auto;
+}

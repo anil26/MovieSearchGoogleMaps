@@ -1,0 +1,50 @@
+/*
+* table pagination
+*/
+.table-wraper {
+	margin: 20px 0px 0px;
+}
+
+.pagination-wrapper {
+	padding: 0px 4px;
+}
+
+.total-instrument, .pagination {
+	width: 50%;
+	float: left;
+}
+
+.pagination ul {
+	float: right;
+}
+
+.pagination li {
+	height: 20px;
+	min-width: 20px;
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0px 4px;
+}
+
+.page-detail {
+	color: #CCCCCC;
+}
+
+.arrow-first {
+	background-image: url('../img/arrow_FirstBlack.jpg');
+}
+
+.previous {
+	background-image: url('../img/arrow_PrevBlack.jpg');
+}
+
+.next {
+	background-image: url('../img/arrow_NextBlack.jpg');
+}
+.down-arrow {
+	background-image: url('../img/arrow_LastBlack.jpg');
+}
+
+.arrow-last {
+	background-image: url('../img/arrow_LastBlack.jpg');
+}

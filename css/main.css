@@ -1,0 +1,30 @@
+/* Do not write any CSS in here, add it to the appropriate module or make a new one and import it here */
+
+@charset 'UTF-8';
+
+/* 2. Configuration and helpers */
+@import 'utils/_variables';
+@import 'utils/_react-date-picker';
+@import 'utils/_react-datetime';
+@import 'base/_helpers';
+
+
+/* 3. Base stuff */
+@import 'base/_base';
+
+/* 4. Layout-related sections */
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'layout/_form';
+@import 'layout/_navbar';
+@import 'layout/_titlebar';
+@import 'layout/_common';
+@import 'layout/_tablePagination';
+@import 'layout/_modal_beck';
+
+
+/*
+5. import Css for Movie Search App
+ */
+@import 'moviesearchapp/_moviesearchlocation';
+@import 'moviesearchapp/_googlemapcontainer';

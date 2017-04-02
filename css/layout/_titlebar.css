@@ -1,0 +1,43 @@
+.title-bar {
+    background-color: $title-bg-color;
+    height: 20px;
+    color: $title-txt-color;
+    font-weight: bold;
+    font-size: $font-size3;
+    border: 0px solid #ffffff;
+    line-height: 20px;
+    position: relative;
+    background: linear-gradient(#ffffff,#dfe7fe);
+    border: 1px solid #dfe7fe;
+}
+
+.title-bar label {
+	padding-left: 4px;
+	line-height: 20px;
+    position: absolute;
+
+}
+
+.title-bar label.maximise::after {
+    
+    width: 12px;
+    height: 12px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    float: right;
+    margin: 5px 4px 0px;
+    cursor: pointer;
+}
+
+.title-bar label.minimise::after {
+    
+    width: 12px;
+    height: 12px;
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    float: right;
+    margin: 5px 4px 0px;
+    cursor: pointer;
+}
