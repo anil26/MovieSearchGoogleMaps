@@ -28,3 +28,6 @@ Steps to run the project :
 
 
 For changing the port fo the application,edit APP_PORT filed in ./config file in project foler
+
+Note:SF data Api provides list of locations which has no valid geo coding(no latitude and longitude).SO for those points no plotting is done.
+
