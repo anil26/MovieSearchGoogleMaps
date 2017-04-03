@@ -25,6 +25,7 @@ Steps to run the project :
 2.run npm install.
 
 3.run npm start.
+4.Once the server is up .Hit http://localhost:3000/searchmovies
 
 
 For changing the port fo the application,edit APP_PORT filed in ./config file in project foler
