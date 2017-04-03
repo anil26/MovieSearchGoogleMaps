@@ -12,7 +12,7 @@ var isSuccess = fs.writeFileSync(destFilePath, content, 'utf8');
 
 var appConfig= require('./' + destFilePath);
 //console.log("appConfig is ->>>",appConfig);
-var appPort = appConfig.APP_PORT;
+var appPort = process.env.PORT || 3000;
 
 
 var WebpackDevServer = require('webpack-dev-server');
