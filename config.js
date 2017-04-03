@@ -7,7 +7,7 @@
 	
 	
 	var UI_APP_DOMAIN = "http://localhost";
-	var UI_APP_PORT = 8491;
+	var UI_APP_PORT = 3000;
 	var APP_VERSION = "1.0.1";
 		
 
