@@ -74,7 +74,7 @@
   },
   "devDependencies": {},
   "scripts": {
-      "start": "node server.js & echo $! > .pid &",
+      "start": "node server.js",
       "restart": "kill $(cat .pid) & node server.js & echo $! > .pid &",
       "stop": "kill $(cat .pid)",
       "build": "webpack --config webpack.prod.config.js --progress --colors -p"
